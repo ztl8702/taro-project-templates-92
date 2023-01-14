@@ -2,79 +2,83 @@ lockfileVersion: 5.4
 
 packageExtensionsChecksum: 3da31a767c655cb291cde61db4f1a3ab
 
-specifiers:
-  '@babel/core': ^7.8.0
-  '@babel/runtime': ^7.7.7
-  '@pmmmwh/react-refresh-webpack-plugin': ^0.5.5
-  '@tarojs/cli': 3.5.11
-  '@tarojs/components': 3.5.11
-  '@tarojs/helper': 3.5.11
-  '@tarojs/plugin-framework-react': 3.5.11
-  '@tarojs/plugin-platform-weapp': 3.5.11
-  '@tarojs/react': 3.5.11
-  '@tarojs/router': 3.5.11
-  '@tarojs/runtime': 3.5.11
-  '@tarojs/shared': 3.5.11
-  '@tarojs/taro': 3.5.11
-  '@tarojs/taro-h5': 3.5.11
-  '@tarojs/taro-loader': ^3.5.11
-  '@tarojs/webpack5-runner': 3.5.11
-  '@types/react': ^18.0.0
-  '@types/webpack-env': ^1.13.6
-  '@typescript-eslint/eslint-plugin': ^5.20.0
-  '@typescript-eslint/parser': ^5.20.0
-  babel-preset-taro: 3.5.11
-  eslint: ^8.12.0
-  eslint-config-taro: 3.5.11
-  eslint-plugin-import: ^2.12.0
-  eslint-plugin-react: ^7.8.2
-  eslint-plugin-react-hooks: ^4.2.0
-  lodash: 4.17.15
-  react: ^18.0.0
-  react-dom: ^18.0.0
-  react-refresh: ^0.11.0
-  stylelint: 9.3.0
-  taro-ui: ^3.1.0-beta.2
-  typescript: ^4.1.0
-  webpack: 5.69.0
+importers:
 
-dependencies:
-  '@babel/runtime': 7.20.7
-  '@tarojs/components': 3.5.11_@types+react@18.0.26
-  '@tarojs/helper': 3.5.11
-  '@tarojs/plugin-framework-react': 3.5.11_fveljtpmd6xw5kcaq7yf3ifhd4
-  '@tarojs/plugin-platform-weapp': 3.5.11_@types+react@18.0.26
-  '@tarojs/react': 3.5.11_react@18.2.0
-  '@tarojs/router': 3.5.11_@types+react@18.0.26
-  '@tarojs/runtime': 3.5.11
-  '@tarojs/shared': 3.5.11
-  '@tarojs/taro': 3.5.11_@types+react@18.0.26
-  '@tarojs/taro-h5': 3.5.11_@types+react@18.0.26
-  lodash: 4.17.15
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  taro-ui: 3.1.0-beta.4_3ajq4bbqzvs625arex6eu5nw7e
+  .:
+    specifiers: {}
 
-devDependencies:
-  '@babel/core': 7.20.12
-  '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_uusriqs5flz55rfdoscscc6fjy
-  '@tarojs/cli': 3.5.11_@types+react@18.0.26
-  '@tarojs/taro-loader': 3.5.11_@types+react@18.0.26
-  '@tarojs/webpack5-runner': 3.5.11_6de4gl2kzfodpu77a2cpyaf2ye
-  '@types/react': 18.0.26
-  '@types/webpack-env': 1.18.0
-  '@typescript-eslint/eslint-plugin': 5.48.1_3jon24igvnqaqexgwtxk6nkpse
-  '@typescript-eslint/parser': 5.48.1_iukboom6ndih5an6iafl45j2fe
-  babel-preset-taro: 3.5.11_l4wmzyfecaqdvyrxgh5436qxyu
-  eslint: 8.31.0
-  eslint-config-taro: 3.5.11_q34yzsfoexftmq5d5smpynhuea
-  eslint-plugin-import: 2.27.4_qdjeohovcytra7xto5vgmxssaq
-  eslint-plugin-react: 7.32.0_eslint@8.31.0
-  eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
-  react-refresh: 0.11.0
-  stylelint: 9.3.0
-  typescript: 4.9.4
-  webpack: 5.69.0
+  app:
+    specifiers:
+      '@babel/core': ^7.8.0
+      '@babel/runtime': ^7.7.7
+      '@pmmmwh/react-refresh-webpack-plugin': ^0.5.5
+      '@tarojs/cli': 3.5.11
+      '@tarojs/components': 3.5.11
+      '@tarojs/helper': 3.5.11
+      '@tarojs/plugin-framework-react': 3.5.11
+      '@tarojs/plugin-platform-weapp': 3.5.11
+      '@tarojs/react': 3.5.11
+      '@tarojs/router': 3.5.11
+      '@tarojs/runtime': 3.5.11
+      '@tarojs/shared': 3.5.11
+      '@tarojs/taro': 3.5.11
+      '@tarojs/taro-h5': 3.5.11
+      '@tarojs/taro-loader': ^3.5.11
+      '@tarojs/webpack5-runner': 3.5.11
+      '@types/react': ^18.0.0
+      '@types/webpack-env': ^1.13.6
+      '@typescript-eslint/eslint-plugin': ^5.20.0
+      '@typescript-eslint/parser': ^5.20.0
+      babel-preset-taro: 3.5.11
+      eslint: ^8.12.0
+      eslint-config-taro: 3.5.11
+      eslint-plugin-import: ^2.12.0
+      eslint-plugin-react: ^7.8.2
+      eslint-plugin-react-hooks: ^4.2.0
+      lodash: 4.17.15
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      react-refresh: ^0.11.0
+      stylelint: 9.3.0
+      taro-ui: ^3.1.0-beta.2
+      typescript: ^4.1.0
+      webpack: 5.69.0
+    dependencies:
+      '@babel/runtime': 7.20.7
+      '@tarojs/components': 3.5.11_@types+react@18.0.26
+      '@tarojs/helper': 3.5.11
+      '@tarojs/plugin-framework-react': 3.5.11_fveljtpmd6xw5kcaq7yf3ifhd4
+      '@tarojs/plugin-platform-weapp': 3.5.11_@types+react@18.0.26
+      '@tarojs/react': 3.5.11_react@18.2.0
+      '@tarojs/router': 3.5.11_@types+react@18.0.26
+      '@tarojs/runtime': 3.5.11
+      '@tarojs/shared': 3.5.11
+      '@tarojs/taro': 3.5.11_@types+react@18.0.26
+      '@tarojs/taro-h5': 3.5.11_@types+react@18.0.26
+      lodash: 4.17.15
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      taro-ui: 3.1.0-beta.4_3ajq4bbqzvs625arex6eu5nw7e
+    devDependencies:
+      '@babel/core': 7.20.12
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_uusriqs5flz55rfdoscscc6fjy
+      '@tarojs/cli': 3.5.11_@types+react@18.0.26
+      '@tarojs/taro-loader': 3.5.11_@types+react@18.0.26
+      '@tarojs/webpack5-runner': 3.5.11_6de4gl2kzfodpu77a2cpyaf2ye
+      '@types/react': 18.0.26
+      '@types/webpack-env': 1.18.0
+      '@typescript-eslint/eslint-plugin': 5.48.1_3jon24igvnqaqexgwtxk6nkpse
+      '@typescript-eslint/parser': 5.48.1_iukboom6ndih5an6iafl45j2fe
+      babel-preset-taro: 3.5.11_l4wmzyfecaqdvyrxgh5436qxyu
+      eslint: 8.31.0
+      eslint-config-taro: 3.5.11_q34yzsfoexftmq5d5smpynhuea
+      eslint-plugin-import: 2.27.4_qdjeohovcytra7xto5vgmxssaq
+      eslint-plugin-react: 7.32.0_eslint@8.31.0
+      eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
+      react-refresh: 0.11.0
+      stylelint: 9.3.0
+      typescript: 4.9.4
+      webpack: 5.69.0
 
 packages:
 
@@ -2496,7 +2500,7 @@ packages:
     resolution: {integrity: sha512-4UqPv+2567NhMQuMLdKAyK4yzrfCqwaTt6bLhHEs8PFcxbHILsrxaY63n4wgE/BRLDWDQeI+WcTmkXKExh9hQg==}
     dependencies:
       '@types/expect': 1.20.4
-      '@types/node': 15.14.9
+      '@types/node': 18.11.18
     dev: true
 
   /@types/webpack-env/1.18.0:
