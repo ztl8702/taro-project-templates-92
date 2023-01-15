@@ -1,12 +1,35 @@
 {
   "pnpm": {
-      "overrides": {
-        "@tarojs/webpack5-runner": "workspace:*"
-      },
+    "overrides": {
+      "@tarojs/webpack5-runner": "workspace:*",
+      "@tarojs/taro-loader": "3.5.11"
+    },
     "packageExtensions": {
       "@tarojs/helper": {
         "dependencies": {
           "@babel/traverse": "*"
+        }
+      },
+      "webpack": {
+        "dependencies": {
+          "@tarojs/taro-loader": "*",
+          "@tarojs/react": "*"
+        }
+      },
+      "loader-runner": {
+        "dependencies": {
+          "@tarojs/taro-loader": "*"
+        }
+      },
+      "@tarojs/react": {
+        "dependencies": {
+          "react-reconciler": "*",
+          "scheduler": "*"
+        }
+      },
+      "@tarojs/taro": {
+        "dependencies": {
+          "@tarojs/api": "*"
         }
       }
     }

@@ -41,6 +41,7 @@ export class BaseConfig {
             'fancy',
             {
               done (_context, { stats }: { stats: Stats }) {
+                console.log(stats.compilation.errors)
                 const { warnings, errors } = formatMessages(stats)
 
                 if (stats.hasWarnings()) {
@@ -49,8 +50,9 @@ export class BaseConfig {
                 }
 
                 if (stats.hasErrors()) {
-                  console.log(chalk.bgRed('✖ Errors: \n'))
-                  errors.forEach(e => console.log(e + '\n'))
+                  console.log(errors)
+                  // console.log(chalk.bgRed('✖ Errors: \n'))
+                  // errors.forEach(e => console.log(e + '\n'))
                   !config.isWatch && process.exit(1)
                 }
 

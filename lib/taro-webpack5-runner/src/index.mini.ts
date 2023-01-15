@@ -30,6 +30,9 @@ export default async function build (appPath: string, rawConfig: MiniBuildConfig
   }
 
   const webpackConfig = combination.chain.toConfig()
+  // console.log(webpackConfig["resolve"]["alias"]);
+  // webpackConfig["resolve"]["alias"]['@tarojs/taro-loader'] = '/workspaces/taro-new/new2/app/node_modules/@tarojs/taro-loader/lib/app.js'
+  console.log(webpackConfig);
   const config = combination.config
 
   return new Promise<Stats>((resolve, reject) => {
@@ -59,10 +62,10 @@ export default async function build (appPath: string, rawConfig: MiniBuildConfig
         await prerender.render()
       }
 
-      // const res = stats.toString({
-      //   logging: 'verbose'
-      // })
-      // console.log('res: ', res)
+      const res = stats.toString({
+        logging: 'verbose'
+      })
+      console.log('res: ', res)
 
       onFinish(null, stats)
       resolve(stats)
