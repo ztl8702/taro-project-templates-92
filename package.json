@@ -1,11 +1,14 @@
 {
-    "pnpm": {
-        "packageExtensions": {
-            "@tarojs/helper": {
-                "dependencies": {
-                    "@babel/traverse": "*"
-                }
-            }
+  "pnpm": {
+      "overrides": {
+        "@tarojs/webpack5-runner": "workspace:*"
+      },
+    "packageExtensions": {
+      "@tarojs/helper": {
+        "dependencies": {
+          "@babel/traverse": "*"
         }
+      }
     }
+  }
 }
