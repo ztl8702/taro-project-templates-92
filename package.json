@@ -8,8 +8,7 @@
       },
       "webpack": {
         "dependencies": {
-          "@tarojs/taro-loader": "*",
-          "@tarojs/react": "*"
+          "@tarojs/taro-loader": "*"
         }
       },
       "loader-runner": {
@@ -20,11 +19,6 @@
       "taro-ui": {
         "dependencies": {
           "@tarojs/plugin-platform-weapp":"*"
-        }
-      },
-      "@tarojs/taro": {
-        "dependencies": {
-          "@tarojs/api": "*"
         }
       }
     }
