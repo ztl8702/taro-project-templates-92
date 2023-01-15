@@ -20,16 +20,9 @@
           "@tarojs/taro-loader": "*"
         }
       },
-      "@tarojs/react": {
-        "dependencies": {
-          "react-reconciler": "*",
-          "scheduler": "*"
-        }
-      },
       "taro-ui": {
         "dependencies": {
-          "@tarojs/plugin-platform-weapp":"*",
-          "@tarojs/taro":"*"
+          "@tarojs/plugin-platform-weapp":"*"
         }
       },
       "@tarojs/taro": {

@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 overrides:
   '@tarojs/taro-loader': 3.5.11
 
-packageExtensionsChecksum: b3372797505a5d3a089f74fed3c6df72
+packageExtensionsChecksum: 0bc6d355dec3b44d2513523109fadbae
 
 importers:
 
