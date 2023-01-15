@@ -1,8 +1,5 @@
 {
   "pnpm": {
-    "overrides": {
-      "@tarojs/taro-loader": "3.5.11"
-    },
     "packageExtensions": {
       "@tarojs/helper": {
         "dependencies": {
